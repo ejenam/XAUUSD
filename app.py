@@ -224,7 +224,7 @@ if page == "Dashboard":
         fig.add_annotation(
             x=row['time_close'],
             y=row['price_close'],
-            text=f"${profit_str}",
+            text=f"£{profit_str}",
             showarrow=True,
             arrowhead=2,
             font=dict(color=color),
